@@ -145,6 +145,14 @@ Este projeto é um MVP acadêmico desenvolvido para a disciplina da Sprint 2 da 
 
 O AeroEyes, nesta entrega, não é um sistema embarcado real, não possui certificação aeronáutica e não deve ser utilizado em contexto operacional. O objetivo é validar a proposta de valor, a experiência de uso, o backlog ágil e a prototipação do fluxo crítico em ambiente simulado.
 
+## Referências e Fundamentação
+
+O AeroEyes foi inspirado por estudos relacionados a fatores humanos, carga cognitiva, interfaces adaptativas e segurança operacional em contextos aeronáuticos.
+
+As referências utilizadas apoiaram principalmente a definição da interface EFB/HUD-inspired, o conceito de decluttering, a priorização de alertas visuais, o uso de métricas de carga cognitiva e a evolução futura para uma PoC de eye-tracking.
+
+As referências completas e a relação de cada uma com o produto estão documentadas no arquivo [`references.md`](./references.md).
+
 ## Autoria
 
 Projeto desenvolvido por Pamela Iglesias como parte da pós-graduação em Engenharia de Software da PUC-Rio.
