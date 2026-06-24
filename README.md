@@ -147,9 +147,9 @@ O AeroEyes, nesta entrega, não é um sistema embarcado real, não possui certif
 
 ## Referências e Fundamentação
 
-O AeroEyes foi inspirado por estudos relacionados a fatores humanos, carga cognitiva, interfaces adaptativas e segurança operacional em contextos aeronáuticos.
+O AeroEyes foi inspirado por estudos relacionados a fatores humanos, carga cognitiva, interfaces adaptativas, segurança operacional e detecção de sonolência por sinais oculares.
 
-As referências utilizadas apoiaram principalmente a definição da interface EFB/HUD-inspired, o conceito de decluttering, a priorização de alertas visuais, o uso de métricas de carga cognitiva e a evolução futura para uma PoC de eye-tracking.
+As referências utilizadas apoiaram principalmente a definição da interface EFB/HUD-inspired, o conceito de decluttering, a priorização de alertas visuais, o uso de métricas de carga cognitiva e a evolução futura para uma PoC de eye-tracking baseada em métricas como piscadas, fechamento ocular e sinais de microsono.
 
 As referências completas e a relação de cada uma com o produto estão documentadas no arquivo [`references.md`](./references.md).
 
