@@ -49,6 +49,40 @@ O artigo contribui como referência de evolução futura ao discutir:
 
 No contexto do AeroEyes, essa referência pode apoiar estudos futuros sobre evolução do produto para ambientes mais próximos de sistemas embarcados, simulações avançadas, dispositivos físicos ou protótipos integrados.
 
+### 3. Detection of Driver Drowsiness by Calculating the Speed of Eye Blinking
+
+**Autores:** Muhammad Fawwaz Yusri, Patrick Mangat, Oliver Wasenmüller  
+**Publicação:** arXiv, 2021  
+**Área:** Computer Vision and Pattern Recognition  
+**DOI:** https://doi.org/10.48550/arXiv.2110.11223  
+**Link:** https://arxiv.org/abs/2110.11223
+
+**Relação com o AeroEyes:**
+
+Esta referência é diretamente relacionada ao Incremento 1 do AeroEyes, especialmente à proposta de evolução para uma PoC experimental de eye-tracking.
+
+O artigo apresenta uma abordagem de detecção de sonolência baseada na velocidade das piscadas, utilizando métricas derivadas do Eye Aspect Ratio e técnicas de visão computacional para identificação dos olhos. Essa ideia se conecta ao AeroEyes porque o produto também busca transformar sinais oculares em indicadores de atenção, fadiga ou risco de microsono em ambiente controlado.
+
+A referência contribui para o AeroEyes nos seguintes pontos:
+
+- fundamenta a possibilidade de usar sinais oculares como proxy para sonolência;
+- apoia a ideia de capturar métricas como piscadas, fechamento ocular e fechamento prolongado;
+- reforça a viabilidade de uma PoC com câmera/webcam antes de sensores especializados;
+- inspira a classificação de estados como normal, atenção e crítico;
+- sustenta a evolução do backlog para histórias relacionadas a eye-tracking experimental;
+- evidencia limitações técnicas importantes, como perda de confiabilidade quando a face não está bem posicionada em relação à câmera;
+- ajuda a justificar a necessidade de validação em ambiente controlado antes de qualquer aplicação operacional.
+
+No AeroEyes, essa referência apoia principalmente as histórias futuras do Incremento 1, como PoC de integração com sensor de eye-tracking, classificação de severidade do alerta, histórico de eventos por simulação e privacidade no processamento dos dados capturados.
+
+**Aplicação prática no produto:**
+
+Enquanto o MVP atual trabalha com dados simulados, esta referência indica um possível caminho técnico para evoluir o AeroEyes em uma próxima etapa: capturar sinais oculares reais em uma PoC local, calcular métricas derivadas e transformar esses sinais em eventos de atenção/fadiga.
+
+**Limitação considerada:**
+
+A abordagem descrita no artigo depende de condições controladas de captura facial. Por isso, no AeroEyes, essa referência não é usada para afirmar eficácia operacional, mas sim para justificar uma etapa futura de prova de conceito técnica em ambiente controlado.
+
 ## Relação das Referências com a Evolução do Produto
 
 As referências apoiam uma trilha de evolução do AeroEyes em três momentos:
